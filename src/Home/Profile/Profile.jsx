@@ -8,7 +8,7 @@ const Profile = () => {
       <img className="my-img" src={portfolio11} alt="" />
       <h1>Mohammed Sayeed</h1>
       <p className="title">Full Stack Developer</p>
-      <p>Siddaganga Institute of Technology</p>
+      
       <a
         className="profile-link"
         href="https://www.linkedin.com/in/sayeedofficial/"

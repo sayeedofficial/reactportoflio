@@ -1,6 +1,6 @@
 import React from "react";
 import "./Detail.css";
-import { Table,Badge } from "react-bootstrap";
+import { Table, Badge } from "react-bootstrap";
 const Detail = () => {
   return (
     <div className="card">
@@ -40,10 +40,13 @@ const Detail = () => {
       <div>
         <h1>Personal Details</h1>
         <Badge pill variant="success">
-          Age = 21
+          Age : 21
         </Badge>{" "}
         <Badge pill variant="danger">
-          Blood Group B+ve
+          Blood Group : B+ve
+        </Badge>{" "}
+        <Badge pill variant="primary">
+          Profession : Student
         </Badge>{" "}
       </div>
     </div>

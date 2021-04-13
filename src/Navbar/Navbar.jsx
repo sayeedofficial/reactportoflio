@@ -7,20 +7,26 @@ const Navbar = () => {
       <ul>
         <li>
           <Link to="/home">
-            <i class="fas fa-home"></i> Home
+            <i className="fas fa-home"></i> Home
           </Link>
         </li>
 
         <li>
           <Link to="/resume">
             {" "}
-            <i class="fas fa-file-download"></i> MyCv
+            <i className="fas fa-file-download"></i> MyCv
+          </Link>
+        </li>
+        <li>
+          <Link to="/projects">
+            {" "}
+            <i className="fas fa-file-download"></i> Projects
           </Link>
         </li>
         <li>
           <Link to="/about">
             {" "}
-            <i class="fas fa-user"></i> About
+            <i className="fas fa-user"></i> About
           </Link>
         </li>
       </ul>
