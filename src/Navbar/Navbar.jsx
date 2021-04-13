@@ -20,7 +20,7 @@ const Navbar = () => {
         <li>
           <Link to="/projects">
             {" "}
-            <i className="fas fa-file-download"></i> Projects
+            <i className="fas fa-project-diagram"></i> Projects
           </Link>
         </li>
         <li>
