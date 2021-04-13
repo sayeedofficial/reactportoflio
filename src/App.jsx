@@ -1,9 +1,9 @@
 import React, { Fragment } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import About from "./About";
-import Home from "./Home";
-import Navbar from "./Navbar";
-import Resume from "./Resume";
+import About from "./About/About";
+import Home from "./Home/Home";
+import Navbar from "./Navbar/Navbar";
+import Resume from "./CV/Resume";
 const App = () => {
   return (
     <Fragment>
