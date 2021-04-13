@@ -12,9 +12,7 @@ const Home = () => {
       <div className="column">
         <Detail />
       </div>
-      <div className="column">
-        
-      </div>
+      
     </div>
   );
 };
