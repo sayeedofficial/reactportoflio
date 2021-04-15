@@ -1,6 +1,6 @@
 .row {
   display: flex;
-  padding-left: 150px;
+  flex-grow: inherit;
 }
 .column {
   text-align: center;
