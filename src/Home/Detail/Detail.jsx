@@ -5,6 +5,19 @@ const Detail = () => {
   return (
     <div className="card">
       <div>
+        <h1>Personal Details</h1>
+        <Badge pill variant="success">
+          Age : 21
+        </Badge>{" "}
+        <Badge pill variant="danger">
+          Blood Group : B+ve
+        </Badge>{" "}
+        <Badge pill variant="primary">
+          Profession : Student
+        </Badge>{" "}
+      </div>
+      <br />
+      <div>
         <h1>Education Details</h1>
         <Table striped bordered hover variant="dark">
           <thead>
@@ -36,18 +49,6 @@ const Detail = () => {
             </tr>
           </tbody>
         </Table>
-      </div>
-      <div>
-        <h1>Personal Details</h1>
-        <Badge pill variant="success">
-          Age : 21
-        </Badge>{" "}
-        <Badge pill variant="danger">
-          Blood Group : B+ve
-        </Badge>{" "}
-        <Badge pill variant="primary">
-          Profession : Student
-        </Badge>{" "}
       </div>
     </div>
   );

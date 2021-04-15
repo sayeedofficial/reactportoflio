@@ -5,14 +5,16 @@ import Profile from "./Profile/Profile";
 
 const Home = () => {
   return (
-    <div className="row">
-      <div className="column">
-        <Profile />
+    <div>
+      <div className="row">
+        <div className="column">
+          <Profile />
+        </div>
+        <div className="column">
+          <Detail />
+        </div>
+       
       </div>
-      <div className="column">
-        <Detail />
-      </div>
-      
     </div>
   );
 };
