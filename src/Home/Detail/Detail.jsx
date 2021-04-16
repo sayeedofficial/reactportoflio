@@ -2,6 +2,7 @@ import React from "react";
 import "./Detail.css";
 import { Table, Badge } from "react-bootstrap";
 const Detail = () => {
+  
   return (
     <div className="card">
       <div>
