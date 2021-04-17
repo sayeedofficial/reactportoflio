@@ -1,14 +1,14 @@
-.rowProject {
+.row {
   display: flex;
 }
-.columnProject {
+.column {
   text-align: center;
   flex: 50%;
   padding: 10px;
   height: 350px;
 }
 @media only screen and (max-width: 600px) {
-  .rowProject {
+  .row {
     display: flex;
     flex-direction: column;
   }

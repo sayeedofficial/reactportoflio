@@ -4,7 +4,7 @@ import cv from "./MyCv.pdf";
 const Resume = () => {
   return (
     <div className="resume">
-      <a href={cv}>
+      <a  href={cv}>
         <button className="custom-btn btn-1">Click Here</button>
       </a>
     </div>

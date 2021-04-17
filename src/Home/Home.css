@@ -1,13 +1,11 @@
 .row {
   display: flex;
-  flex-grow: inherit;
 }
 .column {
   text-align: center;
   flex: 50%;
   padding: 10px;
   height: 300px;
-  width: 500px;
 }
 @media only screen and (max-width: 600px) {
   .row {

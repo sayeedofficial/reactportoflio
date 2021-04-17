@@ -104,8 +104,8 @@ const Projects = () => {
   ];
   return (
     <div>
-      <div className="rowProject">
-        <div className="columnProject">
+      <div className="row">
+        <div className="column">
           <Project
             id={projects[0].id}
             title={projects[0].title}
@@ -114,7 +114,7 @@ const Projects = () => {
             projectlink={projects[0].projectlink}
           />
         </div>
-        <div className="columnProject">
+        <div className="column">
           <Project
             id={projects[1].id}
             title={projects[1].title}
@@ -124,7 +124,7 @@ const Projects = () => {
           />
         </div>
         <div
-          className="columnProject"
+          className="column"
           id={projects[1].id}
           title={projects[1].title}
           description={projects[1].description}
@@ -139,7 +139,7 @@ const Projects = () => {
             projectlink={projects[2].projectlink}
           />
         </div>
-        <div className="columnProject">
+        <div className="column">
           <Project
             id={projects[3].id}
             title={projects[3].title}
@@ -149,8 +149,8 @@ const Projects = () => {
           />
         </div>
       </div>
-      <div className="rowProject">
-        <div className="columnProject">
+      <div className="row">
+        <div className="column">
           <Project
             id={projects[4].id}
             title={projects[4].title}
@@ -159,7 +159,7 @@ const Projects = () => {
             projectlink={projects[4].projectlink}
           />
         </div>
-        <div className="columnProject">
+        <div className="column">
           <Project
             id={projects[5].id}
             title={projects[5].title}
@@ -168,7 +168,7 @@ const Projects = () => {
             projectlink={projects[5].projectlink}
           />
         </div>
-        <div className="columnProject">
+        <div className="column">
           <Project
             id={projects[6].id}
             title={projects[6].title}
@@ -177,7 +177,7 @@ const Projects = () => {
             projectlink={projects[6].projectlink}
           />
         </div>
-        <div className="columnProject">
+        <div className="column">
           <Project
             id={projects[7].id}
             title={projects[7].title}
@@ -187,8 +187,8 @@ const Projects = () => {
           />
         </div>
       </div>
-      <div className="rowProject">
-        <div className="columnProject">
+      <div className="row">
+        <div className="column">
           <Project
             id={projects[8].id}
             title={projects[8].title}
@@ -197,7 +197,7 @@ const Projects = () => {
             projectlink={projects[8].projectlink}
           />
         </div>
-        <div className="columnProject">
+        <div className="column">
           <Project
             id={projects[9].id}
             title={projects[9].title}
@@ -206,7 +206,7 @@ const Projects = () => {
             projectlink={projects[9].projectlink}
           />
         </div>
-        <div className="columnProject">
+        <div className="column">
           <Project
             id={projects[10].id}
             title={projects[10].title}
@@ -215,7 +215,7 @@ const Projects = () => {
             projectlink={projects[10].projectlink}
           />
         </div>
-        <div className="columnProject">
+        <div className="column">
           <Project
             id={projects[11].id}
             title={projects[11].title}
