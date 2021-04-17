@@ -14,6 +14,14 @@ const Home = () => {
           <Detail />
         </div>
       </div>
+      <div className="row">
+        <div className="column">
+          <Profile />
+        </div>
+        <div className="column">
+          <Detail />
+        </div>
+      </div>
     </div>
   );
 };
