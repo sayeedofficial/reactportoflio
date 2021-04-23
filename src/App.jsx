@@ -5,12 +5,14 @@ import Home from "./Home/Home";
 import Navbar from "./Navbar/Navbar";
 import Resume from "./CV/Resume";
 import Projects from "./Projects/Projects";
+import Bot from "./Bot/Bot";
 
 const App = () => {
   return (
     <Fragment>
       <Router>
         <Navbar />
+        <Bot/>
         <Switch>
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/" component={Home} />
