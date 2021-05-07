@@ -8,14 +8,14 @@ const Profile = () => {
       <img className="my-img" src={portfolio11} alt="" />
       <h1>Mohammed Sayeed</h1>
       <p className="title">Full Stack Developer</p>
+      <a className="profile-link" href="https://github.com/sayeedofficial">
+        <i className="fab fa-github-square"> </i>
+      </a>
       <a
         className="profile-link"
         href="https://www.linkedin.com/in/sayeedofficial/"
       >
         <i className="fab fa-linkedin"> </i>
-      </a>
-      <a className="profile-link" href="https://github.com/sayeedofficial">
-        <i className="fab fa-github-square"> </i>
       </a>
     </div>
   );
