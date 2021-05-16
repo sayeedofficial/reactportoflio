@@ -1,15 +1,5 @@
-.row {
+.project-cards{
   display: flex;
-}
-.column {
-  text-align: center;
-  flex: 50%;
-  padding: 10px;
-  height: 350px;
-}
-@media only screen and (max-width: 600px) {
-  .row {
-    display: flex;
-    flex-direction: column;
-  }
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }

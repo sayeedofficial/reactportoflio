@@ -6,15 +6,16 @@ import Navbar from "./Navbar/Navbar";
 import Resume from "./CV/Resume";
 import Projects from "./Projects/Projects";
 import Bot from "./Bot/Bot";
+import ProjectPallet from "./Projects/ProjectsPallet";
 
 const App = () => {
   return (
     <Fragment>
       <Router>
         <Navbar />
-        <Bot/>
+        <Bot />
         <Switch>
-          <Route exact path="/projects" component={Projects} />
+          <Route exact path="/projects" component={ProjectPallet} />
           <Route exact path="/" component={Home} />
           <Route exact path="/home" component={Home} />
           <Route exact path="/about" component={About} />
