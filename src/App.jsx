@@ -4,7 +4,6 @@ import About from "./About/About";
 import Home from "./Home/Home";
 import Navbar from "./Navbar/Navbar";
 import Resume from "./CV/Resume";
-import Projects from "./Projects/Projects";
 import Bot from "./Bot/Bot";
 import ProjectPallet from "./Projects/ProjectsPallet";
 
