@@ -18,7 +18,7 @@ class ProjectPallet extends React.Component {
         description:
           " A Full Stack Web Application which allows members to host various types of events having live chat functionality,login ,photo, upload,map location",
         stack: "Stack : React and Firebase(Back-end as a service)",
-        projectlink: "React and Firebase(Back-end as a service)",
+        projectlink: "https://github.com/sayeedofficial/Eventigo",
       },
       {
         id: "3",
