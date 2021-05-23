@@ -8,3 +8,9 @@
 .pcard:hover {
   box-shadow: 7px 10px 20px -10px rgba(126, 126, 126, 0.56);
 }
+.pcard a{
+  color: whitesmoke;
+}
+.pcard a:hover{
+  color: rgb(224, 224, 224);
+}
