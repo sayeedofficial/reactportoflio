@@ -25,7 +25,7 @@ const landingpage = () => {
             <div className="profile-links">
               <a
                 id="wp-link"
-                href="https://api.whatsapp.com/send?phone=8660814351"
+                href="https://api.whatsapp.com/send?phone=918660814351"
                 target="_blank"
                 rel="noopener noreferrer"
               >
