@@ -14,11 +14,11 @@ const App = () => {
         <Navbar />
         <Bot />
         <Switch>
-          <Route exact path="/projects" component={ProjectPallet} />
           <Route exact path="/" component={landingpage} />
           <Route exact path="/home" component={landingpage} />
-          <Route exact path="/about" component={About} />
           <Route exact path="/resume" component={Resume} />
+          <Route exact path="/projects" component={ProjectPallet} />
+          <Route exact path="/about" component={About} />
         </Switch>
       </Router>
     </Fragment>

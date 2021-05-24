@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="navbar bg-primary">
-      <Link to="/home">
+      <Link to="/">
         <h2>My Portfolio</h2>
       </Link>
 
