@@ -9,9 +9,6 @@ const Detail = () => {
         <Badge pill variant="success">
           Age : 21
         </Badge>{" "}
-        <Badge pill variant="danger">
-          Blood Group : B+ve
-        </Badge>{" "}
         <Badge pill variant="primary">
           Profession : Student
         </Badge>{" "}
