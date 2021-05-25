@@ -1,5 +1,5 @@
 import React from "react";
-import { Badge } from "react-bootstrap";
+import { Button } from "@material-ui/core";
 import "./Project.css";
 function Project({ id, title, description, stack, projectlink }) {
   return (
@@ -8,12 +8,12 @@ function Project({ id, title, description, stack, projectlink }) {
       <h2>Title : {title}</h2>
       <p>Description: {description}</p>
       <strong>Stack : {stack} </strong>
-      <br />
-      <Badge pill variant="success">
+      <br /> <br />
+      <Button variant="contained" color="primary">
         <a href={projectlink} target="_blank" rel="noopener noreferrer">
-          Link <i class="fas fa-link"></i>{" "}
+          Link <i class="fas fa-link"></i>
         </a>
-      </Badge>
+      </Button>
     </div>
   );
 }
