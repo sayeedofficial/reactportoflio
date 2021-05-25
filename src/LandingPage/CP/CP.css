@@ -12,7 +12,7 @@
 .cp-comp {
   border-radius: 10%;
   padding: 10px;
-  box-shadow: -10px 10px 10px -10px rgba(187, 186, 186, 0.56);
+  box-shadow: 7px 10px 50px -10px rgba(126, 126, 126, 0.56);
 }
 .cp-comp:hover {
   box-shadow: 10px 10px 100px -10px rgba(157, 209, 251, 0.56);
