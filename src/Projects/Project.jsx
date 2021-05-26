@@ -6,17 +6,16 @@ function Project({ id, title, description, stack, projectlink }) {
   return (
     <div className="pcard">
       <h1>NO : {id}</h1>
+      <br />
       <h2>Title : {title}</h2>
+      <br />
       <p>Description: {description}</p>
+      <br />
       <strong>Stack : {stack} </strong>
       <br /> <br />
-      <Button
-        variant="contained"
-        color="primary"
-        startIcon={<LinkIcon />}
-      >
+      <Button variant="contained" color="primary" startIcon={<LinkIcon />}>
         <a href={projectlink} target="_blank" rel="noopener noreferrer">
-         Link
+          Link
         </a>
       </Button>
     </div>
