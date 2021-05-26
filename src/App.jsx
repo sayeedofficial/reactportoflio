@@ -6,6 +6,7 @@ import Resume from "./CV/Resume";
 import Bot from "./Bot/Bot";
 import ProjectPallet from "./Projects/ProjectsPallet";
 import landingpage from "./LandingPage/landingpage";
+import Footer from "./Footer/footer";
 
 const App = () => {
   return (
@@ -18,7 +19,6 @@ const App = () => {
           <Route exact path="/home" component={landingpage} />
           <Route exact path="/resume" component={Resume} />
           <Route exact path="/projects" component={ProjectPallet} />
-        
         </Switch>
       </Router>
     </Fragment>
