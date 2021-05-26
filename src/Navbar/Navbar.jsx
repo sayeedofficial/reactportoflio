@@ -14,13 +14,6 @@ const Navbar = () => {
             <i className="fas fa-home"> </i> Home
           </Link>
         </li>
-
-        <li>
-          <Link to="/resume">
-            {" "}
-            <i className="fas fa-file-download"></i> MyCv
-          </Link>
-        </li>
         <li>
           <Link to="/projects">
             {" "}
@@ -28,9 +21,9 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="/about">
+          <Link to="/resume">
             {" "}
-            <i className="fas fa-user"></i> About
+            <i className="fas fa-file-download"></i> MyCv
           </Link>
         </li>
       </ul>
