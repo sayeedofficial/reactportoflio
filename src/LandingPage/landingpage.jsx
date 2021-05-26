@@ -2,7 +2,7 @@ import React from "react";
 import "./landingpage.css";
 import micpic from "../Images/micpic.png";
 import CP from "./CP/CP";
-import Skills from "./skills";
+
 const landingpage = () => {
   return (
     <div>
@@ -18,7 +18,7 @@ const landingpage = () => {
             <h2>Mohammed Sayeed</h2>
             <p>
               To work in an environment which encourages me to succeed and grow
-              professionally where i can utilise my skills and knowledge
+              professionally where I can utilise my skills and knowledge
               appropriately to solve real world problems and deliver high
               optimal solutions in software industry .
             </p>
@@ -48,7 +48,7 @@ const landingpage = () => {
                 <i className="fab fa-linkedin"> </i>
               </a>
             </div>
-            <Skills />
+            
           </div>
         </div>
         <div className="l-rightcolumn">

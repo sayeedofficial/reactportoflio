@@ -1,5 +1,6 @@
-import React from "react";
 import { Button } from "@material-ui/core";
+import LinkIcon from "@material-ui/icons/Link";
+
 import "./Project.css";
 function Project({ id, title, description, stack, projectlink }) {
   return (
@@ -9,9 +10,13 @@ function Project({ id, title, description, stack, projectlink }) {
       <p>Description: {description}</p>
       <strong>Stack : {stack} </strong>
       <br /> <br />
-      <Button variant="contained" color="primary">
+      <Button
+        variant="contained"
+        color="primary"
+        startIcon={<LinkIcon />}
+      >
         <a href={projectlink} target="_blank" rel="noopener noreferrer">
-          Link <i class="fas fa-link"></i>
+         Link
         </a>
       </Button>
     </div>

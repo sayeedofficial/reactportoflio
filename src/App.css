@@ -3,7 +3,7 @@
 /* Global Styles */
 
 .navbar {
-  background-color: #0a95f1;
+  background-color: #f3073a;
 }
 
 * {
@@ -26,7 +26,7 @@ a {
 }
 
 a:hover {
-  color: #666;
+  color: rgb(7, 7, 7);
 }
 
 ul {
@@ -374,7 +374,7 @@ table th {
 }
 
 .navbar a:hover {
-  color: var(--light-color);
+  color: rgb(253, 150, 156);
 }
 
 .navbar .welcome span {
