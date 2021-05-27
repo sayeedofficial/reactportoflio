@@ -1,8 +1,7 @@
 * {
   text-align: center;
-  
 }
-p{
+p {
   font-size: large;
 }
 .l-leftcolumn {
@@ -17,7 +16,7 @@ p{
   padding-left: 20px;
 }
 .lcard {
-  padding-bottom: 100px;
+  padding-bottom: 10px;
 }
 .lcard p {
   margin: 15px;

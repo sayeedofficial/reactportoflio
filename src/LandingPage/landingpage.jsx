@@ -2,7 +2,8 @@ import React from "react";
 import "./landingpage.css";
 import micpic from "../Images/micpic.png";
 import CP from "./CP/CP";
-
+import Detail from '../Home/Detail/Detail'
+import Skills from "./skills";
 const landingpage = () => {
   return (
     <div>
@@ -10,12 +11,13 @@ const landingpage = () => {
         <div className="l-leftcolumn">
           <div className="lcard">
             <h2>My Portfolio</h2>
-            <h5>{}</h5>
+            <br />
             <div className="fakeimg">
               <img src={micpic} alt="" srcset="" />
             </div>
-
+            <br/>
             <h2>Mohammed Sayeed</h2>
+            <br />
             <p>
               To work in an environment which encourages me to succeed and grow
               professionally where I can utilise my skills and knowledge
@@ -47,12 +49,13 @@ const landingpage = () => {
               >
                 <i className="fab fa-linkedin"> </i>
               </a>
+              <Detail />
             </div>
-            
           </div>
         </div>
         <div className="l-rightcolumn">
           <CP></CP>
+          <Skills/>
         </div>
       </div>
     </div>

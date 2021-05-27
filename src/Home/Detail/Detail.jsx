@@ -1,54 +1,72 @@
 import React from "react";
-import "./Detail.css";
-import { Table, Badge } from "react-bootstrap";
-const Detail = () => {
-  return (
-    <div className="card">
-      <div>
-        <h1>Personal Details</h1>
-        <Badge pill variant="success">
-          Age : 21
-        </Badge>{" "}
-        <Badge pill variant="primary">
-          Profession : Student
-        </Badge>{" "}
-      </div>
-      <br/>
-      <div>
-        <h1>Education Details</h1>
-        <Table striped bordered hover variant="dark">
-          <thead>
-            <tr>
-              <th>#</th>
-              <th>School</th>
-              <th>Result</th>
-              <th>Date</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>1</td>
-              <td>Siddaganga Institute of Technology</td>
-              <td>7.8 GPA</td>
-              <td>2018-2022</td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>Sarvodaya PU College</td>
-              <td>82 %</td>
-              <td>2016-2018</td>
-            </tr>
-            <tr>
-              <td>3</td>
-              <td>Sri Chaitanye Techno School</td>
-              <td>10 GPA</td>
-              <td>2012-2016</td>
-            </tr>
-          </tbody>
-        </Table>
-      </div>
-    </div>
-  );
-};
+import { withStyles, makeStyles } from "@material-ui/core/styles";
+import Table from "@material-ui/core/Table";
+import TableBody from "@material-ui/core/TableBody";
+import TableCell from "@material-ui/core/TableCell";
+import TableContainer from "@material-ui/core/TableContainer";
+import TableHead from "@material-ui/core/TableHead";
+import TableRow from "@material-ui/core/TableRow";
+import Paper from "@material-ui/core/Paper";
 
-export default Detail;
+const StyledTableCell = withStyles((theme) => ({
+  head: {
+    backgroundColor: theme.palette.common.black,
+    color: theme.palette.common.white,
+  },
+  body: {
+    fontSize: 14,
+  },
+}))(TableCell);
+
+const StyledTableRow = withStyles((theme) => ({
+  root: {
+    "&:nth-of-type(odd)": {
+      backgroundColor: theme.palette.action.hover,
+    },
+  },
+}))(TableRow);
+
+function createData(Name, Year, Score) {
+  return { Name, Year, Score };
+}
+
+const rows = [
+  createData("Siddaganga Institude of Technology", "2018-2022", 7.83),
+  createData("Sarvodaya PU College", "2016-2018", "82.16%"),
+  createData("Sri Chaitanya Techno School", "2012-2016", "10 GPA"),
+];
+
+const useStyles = makeStyles({
+  table: {
+    minWidth: 700,
+  },
+});
+
+export default function CustomizedTables() {
+  const classes = useStyles();
+
+  return (
+    <TableContainer component={Paper}>
+      <Table className={classes.table} aria-label="customized table">
+        <TableHead>
+          <TableRow>
+            <StyledTableCell>Names</StyledTableCell>
+            <StyledTableCell align="right">Year</StyledTableCell>
+            <StyledTableCell align="right">Score&nbsp;(g)</StyledTableCell>
+          </TableRow>
+        </TableHead>
+        <TableBody>
+          {rows.map((row) => (
+            <StyledTableRow key={row.Name}>
+              <StyledTableCell component="th" scope="row">
+                {row.Name}
+              </StyledTableCell>
+              <StyledTableCell align="right">{row.Year}</StyledTableCell>
+              <StyledTableCell align="right">{row.Score}</StyledTableCell>
+            </StyledTableRow>
+          ))}
+        </TableBody>
+      </Table>
+    </TableContainer>
+  );
+}

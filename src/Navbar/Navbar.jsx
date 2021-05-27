@@ -10,7 +10,7 @@ const Navbar = () => {
 
       <ul>
         <li>
-          <Link to="/home">
+          <Link to="/">
             <i className="fas fa-home"> </i> Home
           </Link>
         </li>
