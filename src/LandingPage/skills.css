@@ -1,5 +1,29 @@
-.skills-images{
-    margin-left: 5px;
-    padding: 10px;
-    width: 50px;
+.skill-box {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  text-align: center;
+  padding-bottom: 10px;
+  float: inline-end;
+}
+
+.skill-comp {
+  border-radius: 10%;
+  padding: 2px 5px;
+  margin: 5px;
+  color: white;
+  background-color: rgb(14, 180, 28);
+  box-shadow: 7px 10px 50px -10px rgba(118, 160, 238, 0.56);
+}
+.skill-comp:hover {
+  box-shadow: 10px 10px 100px -10px rgba(157, 209, 251, 0.56);
+}
+@media screen and (max-width: 800px) {
+  .skill-box {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-bottom: 5px;
+  }
 }

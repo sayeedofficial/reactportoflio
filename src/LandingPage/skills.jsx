@@ -1,15 +1,30 @@
 import React from "react";
-import Badge from "react-bootstrap/Badge"
-import './skills.css'
-const Skills = () => {
+import Skill from "./skill";
+import "./skills.css";
+const CP = () => {
+  const skillsarray = [
+    "C++",
+    "Java",
+    "Python",
+    "JavaScript",
+    "React",
+    "Nodejs",
+    "Android",
+    "Flutter",
+    "Git and GitHub",
+  ];
   return (
     <div>
-      <h3>Skills</h3>
-      <Badge pill variant="primary">
-        Primary
-      </Badge>
+      <br />
+      <h2>Technical Skills</h2>
+      <br />
+      <div className="skill-box">
+        {skillsarray.map((e) => (
+          <Skill skill={e} />
+        ))}
+      </div>
     </div>
   );
 };
 
-export default Skills;
+export default CP;
