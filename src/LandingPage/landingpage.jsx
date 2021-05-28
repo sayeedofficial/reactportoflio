@@ -2,7 +2,7 @@ import React from "react";
 import "./landingpage.css";
 import micpic from "../Images/micpic.png";
 import CP from "./CP/CP";
-import Detail from '../Home/Detail/Detail'
+import Detail from "../Home/Detail/Detail";
 import Skills from "./skills";
 const landingpage = () => {
   return (
@@ -15,7 +15,7 @@ const landingpage = () => {
             <div className="fakeimg">
               <img src={micpic} alt="" srcset="" />
             </div>
-            <br/>
+            <br />
             <h2>Mohammed Sayeed</h2>
             <br />
             <p>
@@ -55,7 +55,7 @@ const landingpage = () => {
         </div>
         <div className="l-rightcolumn">
           <CP></CP>
-          <Skills/>
+          <Skills />
         </div>
       </div>
     </div>

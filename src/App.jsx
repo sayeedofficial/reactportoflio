@@ -17,7 +17,6 @@ const App = () => {
           <Route exact path="/resume" component={Resume} />
           <Route exact path="/projects" component={ProjectPallet} />
         </Switch>
-       
       </Router>
     </Fragment>
   );

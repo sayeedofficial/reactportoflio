@@ -16,7 +16,7 @@ const Resume = () => {
       >
         Save
       </Button>
-        {"   "}
+      {"   "}
       <Button
         className="cust-btn"
         href={cv}
@@ -24,7 +24,7 @@ const Resume = () => {
         variant="contained"
         color="secondary"
       >
-       Alternative Link
+        Alternative Link
       </Button>
     </div>
   );

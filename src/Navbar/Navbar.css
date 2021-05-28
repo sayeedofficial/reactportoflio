@@ -4,6 +4,7 @@
 
 .navbar {
   background-color: #f3073a;
+  box-shadow: 0px 10px 10px -10px #f3073a;
 }
 
 * {
@@ -13,13 +14,10 @@
   padding: 0;
 }
 
-
-a{
-    color: black;
-    text-decoration: none;
+a {
+  color: black;
+  text-decoration: none;
 }
-
-
 
 ul {
   list-style: none;
@@ -137,8 +135,6 @@ img {
 
 /* Mobile Styles */
 @media (max-width: 700px) {
-  
-
   /* Navbar */
   .navbar {
     display: block;
