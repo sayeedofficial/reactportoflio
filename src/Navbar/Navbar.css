@@ -3,8 +3,7 @@
 /* Global Styles */
 
 .navbar {
-  background-color: #f3073a;
-  box-shadow: 0px 10px 10px -10px #f3073a;
+  
 }
 
 * {
@@ -94,7 +93,8 @@ img {
   padding: 0.7rem 2rem;
   z-index: 1;
   width: 100%;
-  border-bottom: solid 1px var(--primary-color);
+  background-color: #f3073a;
+  box-shadow: 0px 10px 10px -10px #f3073a;
   opacity: 0.9;
   margin-bottom: 1rem;
 }
@@ -110,7 +110,9 @@ img {
 }
 
 .navbar a:hover {
-  color: rgb(253, 150, 156);
+  background-color: #fff;
+  border-radius: 20px;
+  color: #f3073a;
 }
 
 .navbar .welcome span {
