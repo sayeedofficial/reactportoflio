@@ -90,8 +90,8 @@ img {
   padding: 0.7rem 2rem;
   z-index: 1;
   width: 100%;
-  background-color: #f3073a;
-  box-shadow: 0px 10px 10px -10px #f3073a;
+  background-color: #ffffff;
+  box-shadow: 0px 10px 10px -10px #c5c5c5;
   opacity: 0.9;
   margin-bottom: 1rem;
 }
@@ -101,13 +101,13 @@ img {
 }
 
 .navbar a {
-  color: #fff;
+  color: #fd0202;
   padding: 0.45rem;
   margin: 0 0.25rem;
 }
 
 .navbar a:hover {
-  color: #ffffff;
+  color: #f84545;
 }
 
 .navbar .welcome span {
