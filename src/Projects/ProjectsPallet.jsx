@@ -17,7 +17,7 @@ const ProjectsPallet = () => {
       title: "Eventigo",
       description:
         " A Full Stack Web Application which allows members to host various types of events having live chat functionality,login ,photo, upload,map location",
-      stack: "Stack : React,next,strapi",
+      stack: "Stack : React,Next, Strapi",
       projectlink: "https://github.com/sayeedofficial/eventigolite",
     },
     {
@@ -25,7 +25,7 @@ const ProjectsPallet = () => {
       title: " MyContactVault",
       description:
         " It is a full stack web application where users can save contacts safely. In order to access the contacts the user needs to login.",
-      stack: "MERN",
+      stack: "React Node MongoDB",
       projectlink: " https://github.com/sayeedofficial/contact-keeper",
     },
     {
@@ -33,7 +33,7 @@ const ProjectsPallet = () => {
       title: "MemoriesApp",
       description:
         "A Full stack web application where users post interesting and unique instances that has happened in their life.",
-      stack: "MERN",
+      stack: "React Node MongoDB",
       projectlink: "https://github.com/sayeedofficial/memoriesapp",
     },
     {
@@ -65,7 +65,7 @@ const ProjectsPallet = () => {
       title: "DogCatClassifier",
       description:
         "A iOS/Android Application which can tell the whether the given image represents a cat or a dog. Image can be captured or fetched from storage",
-      stack: "Flutter,Deep learning and Google's Teachable Machine Learning.",
+      stack: "Flutter,Google's Teachable Machine Learning.",
       projectlink: "https://github.com/sayeedofficial/catvsdog",
     },
     {
@@ -82,7 +82,7 @@ const ProjectsPallet = () => {
       description:
         "A AI based Android/iOS Application Type a text which represent a kind of feeling and it will tell what kind of feeling the text represents.",
       stack:
-        "Flutter, Deep learning , Sentimental Analysis and Convulational Neural Network",
+        "Flutter, Rapid API",
       projectlink: " ",
     },
     {
@@ -96,11 +96,35 @@ const ProjectsPallet = () => {
     },
     {
       id: "12",
-      title: "DijksatraAlgoVisualizer",
+      title: "AlgoVisualizer",
       description:
         "This is a Algorithm based project which uses Graph,to solve the problem of finding shortest in a given set of cities, Dijkstra algorithm is used to find the shortest distance between two cities",
       stack: "HTML,CSS,Bootstrap,JavaScript",
       projectlink: "https://github.com/sayeedofficial/dijiksatratravelproblem",
+    },
+    {
+      id: "13",
+      title: "Networker",
+      description:
+        "A command line utility Networking based application which connects to device,via SSH, builds a graph which shows pictorially the utilization of CPU over time.",
+      stack: "Python Programming Language",
+      projectlink: "https://github.com/sayeedofficial/networker",
+    },
+    {
+      id: "14",
+      title: "MemoryManager",
+      description:
+        "This project implements custom memory allocation scheme to address the problem of memory fragmentation, while taking care of the problems of Heap internal and external fragmentation ",
+      stack: "C Programming Language",
+      projectlink: "https://github.com/sayeedofficial/MemoryManager",
+    },
+    {
+      id: "15",
+      title: "LeakDetector",
+      description:
+        "This is Operating system based project ,A garbage collector for C programs which work on the principle of reachability of objects to detect memory leaks. .",
+      stack: "C Programming Language",
+      projectlink: "https://github.com/sayeedofficial/MemoryManager",
     },
   ];
   return (

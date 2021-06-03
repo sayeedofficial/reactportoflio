@@ -1,18 +1,25 @@
 .pcard {
- text-align: center;
-  width: 300px ;
-  padding:10px;
+  text-align: center;
+  width: 300px;
+  padding: 10px;
   margin: 1rem;
   box-shadow: 7px 10px 50px -10px rgba(126, 126, 126, 0.56);
+}
+.pcard h1 {
+  background-color: rgb(0, 255, 106);
+  border-radius: 0px 20px;
+}
+.pcard h2 {
+  background-color: rgb(250, 83, 83);
+  color: white;
+  border-radius: 20px;
 }
 .pcard:hover {
   box-shadow: 7px 10px 20px -10px rgba(126, 126, 126, 0.56);
 }
-.pcard a{
+.pcard a {
   color: whitesmoke;
 }
-.pcard a:hover{
+.pcard a:hover {
   color: rgb(255, 255, 255);
 }
-
-

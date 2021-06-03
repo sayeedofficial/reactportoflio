@@ -9,9 +9,14 @@ function Project({ id, title, description, stack, projectlink }) {
       <br />
       <h2>Title : {title}</h2>
       <br />
-      <p>Description: {description}</p>
+      <p>
+        {" "}
+        <strong>Description:</strong> {description}
+      </p>
       <br />
-      <strong>Stack : {stack} </strong>
+      <span>
+        <strong>Stack : {stack} </strong>
+      </span>
       <br /> <br />
       <Button variant="contained" color="primary" startIcon={<LinkIcon />}>
         <a href={projectlink} target="_blank" rel="noopener noreferrer">
