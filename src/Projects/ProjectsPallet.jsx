@@ -17,7 +17,7 @@ const ProjectsPallet = () => {
       title: "Eventigo",
       description:
         " A Full Stack Web Application which allows members to host various types of events having live chat functionality,login ,photo, upload,map location",
-      stack: "Stack : React,Next, Strapi",
+      stack: " React, Next, Strapi",
       projectlink: "https://github.com/sayeedofficial/eventigolite",
     },
     {
@@ -41,7 +41,7 @@ const ProjectsPallet = () => {
       title: "CV Maker",
       description:
         "A Full stack web application prototype where user fill necessary fields and cv can be downloaded in the form of pdf",
-      stack: "Bootstrap, SQLite,Django",
+      stack: "Bootstrap, SQLite, Django",
       projectlink: "https://github.com/sayeedofficial/cvgenerator",
     },
     {
@@ -49,7 +49,7 @@ const ProjectsPallet = () => {
       title: "Placement Portal",
       description:
         "A Placement portal which shows the jobs available,having functionality of posting job to students browsing,applying jobs.",
-      stack: "Bootstrap MySQL, Django",
+      stack: "Bootstrap, MySQL, Django",
       projectlink: "https://github.com/sayeedofficial/sitplacementportal",
     },
     {
@@ -57,7 +57,7 @@ const ProjectsPallet = () => {
       title: "NationalParkApp",
       description:
         " A Android Application where a user can search for national parks and wildlife sanctuaries around world.The search result is shown over the mark",
-      stack: "Java,Android API,Google Maps",
+      stack: "Java, Android API, Google Maps",
       projectlink: "https://github.com/sayeedofficial/nationalparksapp",
     },
     {
@@ -65,7 +65,7 @@ const ProjectsPallet = () => {
       title: "DogCatClassifier",
       description:
         "A iOS/Android Application which can tell the whether the given image represents a cat or a dog. Image can be captured or fetched from storage",
-      stack: "Flutter,Google's Teachable Machine Learning.",
+      stack: "Flutter, Google's Teachable Machine Learning.",
       projectlink: "https://github.com/sayeedofficial/catvsdog",
     },
     {
@@ -73,7 +73,7 @@ const ProjectsPallet = () => {
       title: "MyCustomCard",
       description:
         "A Android Application where you type a text and card is created having a picture as background and a text over the picture.",
-      stack: "Java,Android API,Work manager API",
+      stack: "Java, Android API, Work manager API",
       projectlink: "https://github.com/sayeedofficial/CustomCardAndroid",
     },
     {
@@ -98,7 +98,7 @@ const ProjectsPallet = () => {
       title: "AlgoVisualizer",
       description:
         "This is a Algorithm based project which uses Graph,to solve the problem of finding shortest in a given set of cities, Dijkstra algorithm is used to find the shortest distance between two cities",
-      stack: "HTML,CSS,Bootstrap,JavaScript",
+      stack: "HTML, CSS, Bootstrap, JavaScript",
       projectlink: "https://github.com/sayeedofficial/dijiksatratravelproblem",
     },
     {
