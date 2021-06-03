@@ -14,9 +14,7 @@ function Project({ id, title, description, stack, projectlink }) {
         <strong>Description:</strong> {description}
       </p>
       <br />
-      <span>
-        <strong>Stack : {stack} </strong>
-      </span>
+      <strong>Stack : {stack} </strong>
       <br /> <br />
       <Button variant="contained" color="primary" startIcon={<LinkIcon />}>
         <a href={projectlink} target="_blank" rel="noopener noreferrer">
