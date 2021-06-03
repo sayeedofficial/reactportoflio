@@ -81,9 +81,8 @@ const ProjectsPallet = () => {
       title: "TextiMent",
       description:
         "A AI based Android/iOS Application Type a text which represent a kind of feeling and it will tell what kind of feeling the text represents.",
-      stack:
-        "Flutter, Rapid API",
-      projectlink: " ",
+      stack: "Flutter, Rapid API",
+      projectlink: "https://github.com/sayeedofficial/Textiment",
     },
     {
       id: "11",
