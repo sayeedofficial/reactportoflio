@@ -3,7 +3,9 @@
   width: 300px;
   padding: 10px;
   margin: 1rem;
-  box-shadow: 7px 10px 50px -10px rgba(126, 126, 126, 0.56);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 5px;
+  transition: 0.3s;
 }
 .pcard h1 {
   background-color:  #ffcc5c;
@@ -18,7 +20,7 @@
   padding: 0px;
 }
 .pcard:hover {
-  box-shadow: 7px 10px 20px -10px rgba(126, 126, 126, 0.56);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 .pcard a {
   color: whitesmoke;

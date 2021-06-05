@@ -5,7 +5,10 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <Link to="/">
-        <h2>My Portfolio</h2>
+        <h2>
+          {" "}
+          <i className="fas fa-smile"></i> My Portfolio
+        </h2>
       </Link>
 
       <ul>
