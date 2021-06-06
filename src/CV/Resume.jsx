@@ -19,7 +19,7 @@ const Resume = () => {
       {"   "}
       <Button
         className="cust-btn"
-        href={cv}
+        href="https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:1b40f057-855a-43e5-b5e4-ad5546ef7a31"
         startIcon={<CloudDownload />}
         variant="contained"
         color="secondary"
