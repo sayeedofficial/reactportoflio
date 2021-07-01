@@ -2,7 +2,7 @@
 # My Website
 ## Steps
 ```
-git clone www.github.com/sayeedofficial/reactportfolio.git
+git clone https://github.com/sayeedofficial/reactportoflio.git
 ```
 ```
 cd reactportfolio 
