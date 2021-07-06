@@ -125,6 +125,29 @@ const ProjectsPallet = () => {
       stack: "C Programming Language",
       projectlink: "https://github.com/sayeedofficial/MemoryManager",
     },
+    {
+      id: "16",
+      title: "OSPFkit",
+      description:
+        "It allows the discovery of all OSPF network devices in the network, without connecting to each of them or knowing all their IP addresses.",
+      stack: "python programming language",
+      projectlink: "https://github.com/sayeedofficial/ospfkit",
+    },
+    {
+      id: "17",
+      title: "Musicon",
+      description:
+        "A Machine Learning Based Project Where Face is scanned and emotions are detected which is used to find mood of the user, based on the mood song is played",
+      stack: "HTML, CSS, JavaScript, Python.",
+      projectlink: "https://github.com/sayeedofficial/MiniProject",
+    },
+    {
+      id : "18",
+      title : "QuickCodeChat",
+      description : "A chat Application Where you can create room aka lobby and chat with others",
+      stack : "node js socket.io",
+      projectlink : "https://github.com/sayeedofficial/quickcoderchat"
+    }
   ];
   return (
     <div className="project-cards">
