@@ -1,0 +1,15 @@
+#resume-container {
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+img {
+  width: 500px;
+  height: 700px;
+}
+@media only screen and (max-width: 657px) {
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}

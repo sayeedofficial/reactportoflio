@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "@material-ui/core";
 import { CloudDownload, Save } from "@material-ui/icons";
+import resume from "./resume.jpg";
 import cv from "./cv.pdf";
 import "./Resume.css";
 
@@ -26,6 +27,9 @@ const Resume = () => {
       >
         Alternative Link
       </Button>
+      <div id="resume-container">
+        <img src={resume} alt=""></img>
+      </div>
     </div>
   );
 };
