@@ -49,6 +49,7 @@ const landingpage = () => {
               >
                 <i className="fab fa-linkedin"> </i>
               </a>
+              <h2>Education</h2>
               <Detail />
             </div>
           </div>
