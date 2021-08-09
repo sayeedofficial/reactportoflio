@@ -49,7 +49,7 @@ const ProjectsPallet = () => {
 
     {
       id: "6",
-      title: "MemoryLeakDetector",
+      title: "LeakDetector",
       description:
         "This is Operating system based project ,A garbage collector for C programs which work on the principle of reachability of objects to detect memory leaks. .",
       stack: "C Programming Language",
