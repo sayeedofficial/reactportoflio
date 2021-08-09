@@ -5,6 +5,7 @@ import Resume from "./CV/Resume";
 import Bot from "./Bot/Bot";
 import ProjectPallet from "./Projects/ProjectsPallet";
 import landingpage from "./LandingPage/landingpage";
+import './App.css'
 
 const App = () => {
   return (

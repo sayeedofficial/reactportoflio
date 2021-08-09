@@ -9,9 +9,8 @@ const CP = () => {
     "JavaScript",
     "React",
     "Nodejs",
-    "Android",
     "Flutter",
-    "Git and GitHub",
+    "Git",
   ];
   return (
     <div>

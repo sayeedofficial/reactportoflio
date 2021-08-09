@@ -4,6 +4,7 @@
   flex-wrap: wrap;
   text-align: center;
   padding-bottom: 10px;
+  background-color: whitesmoke;
 }
 .cp-box img {
   width: 75px;
@@ -12,10 +13,11 @@
 .cp-comp {
   border-radius: 10%;
   padding: 10px;
+  color: black;
   box-shadow: 7px 10px 50px -10px rgba(126, 126, 126, 0.56);
 }
 .cp-comp:hover {
-  box-shadow: 10px 10px 100px -10px #f3073a;
+  box-shadow: 10px 10px 100px -10px #cadafc;
 }
 @media screen and (max-width: 800px) {
   .cp-box {

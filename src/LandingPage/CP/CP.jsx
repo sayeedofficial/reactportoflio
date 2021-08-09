@@ -1,5 +1,5 @@
 import React from "react";
-import codechef from "../../Images/codechef.jpg";
+import codechef from "../../Images/codechef.png";
 import hackerrank from "../../Images/hackerrank.png";
 import leetcode from "../../Images/leetcode.png";
 import "./CP.css";
