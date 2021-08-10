@@ -46,6 +46,9 @@ ul {
   color: white;
   background-color: #0052cc;
 }
+#home-btn :hover {
+  background-color: #0445a7;
+}
 
 /* Mobile Styles */
 @media (max-width: 700px) {
